@@ -20,7 +20,7 @@ const DUMMY_DATA = [
     id: "03",
     title: "Health Insurance",
     amount: 294.67,
-    date: new Date(2021, 4, 2),
+    date: new Date(2020, 4, 2),
   },
   {
     id: "04",
