@@ -11,7 +11,7 @@ const NewExpense = (props) => {
   };
 
   const hideForm = () => {
-    setEditButton(false);
+    editButton;
   };
   const saveExpenseDataHandler = (enteredExpenseData) => {
     const expenseData = {
@@ -19,7 +19,6 @@ const NewExpense = (props) => {
       id: Math.random().toString(),
     };
     props.onAddExpense(expenseData);
-    setEditButton(false);
   };
   return (
     <div className="new-expense">

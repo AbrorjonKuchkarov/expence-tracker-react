@@ -19,7 +19,6 @@ const NewExpense = (props) => {
       id: Math.random().toString(),
     };
     props.onAddExpense(expenseData);
-    setEditButton(false);
   };
   return (
     <div className="new-expense">
